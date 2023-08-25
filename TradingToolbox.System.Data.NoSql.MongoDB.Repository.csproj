@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <PackOnBuild>true</PackOnBuild>
+    <Authors>Trading Toolbox</Authors>
+    <Copyright>Copyright 2021 © Ben Visintainer. All rights reserved.</Copyright>
+    <Description>Concrete implementation of the base document repository found in TradingToolbox.System.Data.NoSql.Repository for MongoDb</Description>
+    <PackageVersion>5.0.0</PackageVersion>
+    <ReleaseVersion>5.0.0</ReleaseVersion>
+    <PackageOutputPath>../NuGet-Packages</PackageOutputPath>
+    <RootNamespace>TradingToolbox.System.Data.NoSql.MongoDB.Repository</RootNamespace>
+    <AssemblyName>TradingToolbox.System.Data.NoSql.MongoDB.Repository</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Config\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Driver" Version="2.21.0" />
+    <PackageReference Include="TradingToolbox.System.Data.NoSql.MongoDB.Models" Version="5.0.0" />
+    <PackageReference Include="TradingToolbox.System.Data.NoSql.Repository" Version="5.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="README.md" />
+  </ItemGroup>
+</Project>
