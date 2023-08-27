@@ -33,6 +33,6 @@ Global
 		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
 		$0.VersionControlPolicy = $2
 		description = @Generic Mongo Repository pattern implemented in .NET Core\n\nBased on https://medium.com/@marekzyla95/mongo-repository-pattern-700986454a0e
-		version = 5.0.0
+		version = 5.0.1
 	EndGlobalSection
 EndGlobal
