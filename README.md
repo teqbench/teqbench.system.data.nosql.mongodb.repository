@@ -1,4 +1,4 @@
-# Trading Toolbox - System Data NoSql MongoDB Repository
+# System MongoDB Repository
 
 ## Overview
 Generic MongoDB repository implementation and supporting configuration classes.
@@ -36,7 +36,7 @@ dotnet add package TradingToolbox.System.Data.NoSql.MongoDB.Repository
 
 ## Update Source Code
 > [!NOTE]
-> For complete usage, see TradingToolbox.Trading.Modeler.Data.NoSql.MongoDB.Services
+> For complete usage, see [TradingToolbox.Trading.Modeler.Data.NoSql.MongoDB.Services](https://github.com/trading-toolbox/tradingtoolbox.trading.modeler.data.nosql.mongodb.services)
 
 ```csharp
 /// <summary>
