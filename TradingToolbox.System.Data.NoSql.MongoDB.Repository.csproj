@@ -35,7 +35,7 @@
 		<IsPackable>true</IsPackable>
 		<PackOnBuild>true</PackOnBuild>
 		<NeutralLanguage>en-US</NeutralLanguage>
-		<PackageOutputPath>./bin/Release</PackageOutputPath>
+		<PackageOutputPath>./bin/$(Configuration)</PackageOutputPath>
 		<!-- VersionPrefix will be used by .NET to build the PackageVersion and the InformationalVersion. -->
 		<VersionPrefix>$(Major).$(Minor).$(Patch)</VersionPrefix>
 		<!-- Have to explicitly construct the AssemblyVersion and FileVersion in order to have the build and revision version components included. -->
