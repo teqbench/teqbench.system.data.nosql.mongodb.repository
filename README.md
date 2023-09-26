@@ -44,8 +44,9 @@ dotnet add package TradingToolbox.System.Data.NoSql.MongoDB.Repository
 /// <seealso cref="IRepository{Models}" />
 public interface IPositionModelRepository : IRepository<PositionModelDocument>
 {
-    // NOTE: using the generic IRepository interface from TradingToolbox.System.Data.NoSql.MongoDB.Repsitory allows
-    // the implementing interface/class to specify a different data type for the underlying document this repository to work with.
+    // NOTE: using the generic IRepository interface from TradingToolbox.System.Data.NoSql.MongoDB.Repsitory
+    // allows the implementing interface/class to specify a different data type for the underlying document
+    // this repository to work with.
 }
 
 /// <summary>
