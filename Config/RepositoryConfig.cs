@@ -1,9 +1,9 @@
-﻿namespace TradingToolbox.System.Data.NoSql.MongoDB.Repository.Config
+﻿namespace TeqBench.System.Data.NoSql.MongoDB.Repository.Config
 {
     /// <summary>
     /// MongoDb repository config implementation.
     /// </summary>
-    /// <seealso cref="TradingToolbox.System.Data.NoSql.MongoDB.Repository.Config.IRepositoryConfig" />
+    /// <seealso cref="TeqBench.System.Data.NoSql.MongoDB.Repository.Config.IRepositoryConfig" />
     public class RepositoryConfig : IRepositoryConfig
     {
         /// <summary>
@@ -12,7 +12,7 @@
         /// <value>
         /// The connection string.
         /// </value>
-        public string ConnectionString { get; set; }
+        public required string ConnectionString { get; set; }
 
         /// <summary>
         /// Gets or sets the name of the database repository configuration.
@@ -20,6 +20,6 @@
         /// <value>
         /// The name of the database.
         /// </value>
-        public string DatabaseName { get; set; }
+        public required string DatabaseName { get; set; }
     }
 }
