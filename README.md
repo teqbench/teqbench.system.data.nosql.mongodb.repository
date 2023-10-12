@@ -24,9 +24,9 @@ Implementation based on https://medium.com/@marekzyla95/mongo-repository-pattern
 > [!NOTE]
 > Referenced/restored via the project file
 
-- MongoDB.Bson, 2.21.0
-- TeqBench.System.Data.NoSql.MongoDB.Models, 5.1.0
-- TeqBench.System.Data.NoSql.Repository, 5.1.0
+- MongoDB.Bson, 2.22.0
+- TeqBench.System.Data.NoSql.MongoDB.Models, 1.0.0
+- TeqBench.System.Data.NoSql.Repository, 1.0.0
 
 # Usage
 ## Add NuGet Package To Project
