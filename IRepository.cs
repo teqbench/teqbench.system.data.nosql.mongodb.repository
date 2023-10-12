@@ -3,16 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
-using TradingToolbox.System.Data.NoSql.MongoDB.Models;
-using TradingToolbox.System.Data.NoSql.Repository;
+using TeqBench.System.Data.NoSql.MongoDB.Models;
+using TeqBench.System.Data.NoSql.Repository;
 
-namespace TradingToolbox.System.Data.NoSql.MongoDB.Repository
+namespace TeqBench.System.Data.NoSql.MongoDB.Repository
 {
     /// <summary>
     /// MongoDB respository operations interface.
     /// </summary>
     /// <typeparam name="TDocument">The type of the document the respository will operate on.</typeparam>
-    /// <seealso cref="TradingToolbox.System.Data.NoSql.Repository.IRepository" />
+    /// <seealso cref="TeqBench.System.Data.NoSql.Repository.IRepository" />
     public interface IRepository<TDocument> : IRepository where TDocument : IDocument
     {
         /// <summary>

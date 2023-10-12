@@ -1,4 +1,4 @@
-﻿namespace TradingToolbox.System.Data.NoSql.MongoDB.Repository.Config
+﻿namespace TeqBench.System.Data.NoSql.MongoDB.Repository.Config
 {
     /// <summary>
     /// MongoDb repository config interface.

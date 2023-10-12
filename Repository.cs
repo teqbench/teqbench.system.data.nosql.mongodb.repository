@@ -4,18 +4,18 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 using MongoDB.Driver;
-using TradingToolbox.System.Data.NoSql.MongoDB.Models;
-using TradingToolbox.System.Data.NoSql.MongoDB.Repository.Config;
-using TradingToolbox.System.Data.NoSql.Repository;
+using TeqBench.System.Data.NoSql.MongoDB.Models;
+using TeqBench.System.Data.NoSql.MongoDB.Repository.Config;
+using TeqBench.System.Data.NoSql.Repository;
 
-namespace TradingToolbox.System.Data.NoSql.MongoDB.Repository
+namespace TeqBench.System.Data.NoSql.MongoDB.Repository
 {
     /// <summary>
     /// MongoDB respository operations.
     /// </summary>
     /// <typeparam name="TDocument">The type of the document the respository will operate on.</typeparam>
-    /// <seealso cref="TradingToolbox.System.Data.NoSql.Repository.BaseRepository" />
-    /// <seealso cref="TradingToolbox.System.Data.NoSql.MongoDB.Repository.IRepository{TDocument}" />
+    /// <seealso cref="TeqBench.System.Data.NoSql.Repository.BaseRepository" />
+    /// <seealso cref="TeqBench.System.Data.NoSql.MongoDB.Repository.IRepository{TDocument}" />
     public class Repository<TDocument> : BaseRepository, IRepository<TDocument> where TDocument : IDocument
     {
         #region Member Variables
@@ -40,7 +40,7 @@ namespace TradingToolbox.System.Data.NoSql.MongoDB.Repository
             catch (Exception ex)
             {
                 // No fancy logging for now; just output to console.
-                Console.WriteLine("Unexpected exception occurred while attempting to create repository for TradingToolbox.System.Data.NoSql.MongoDB.Repository type " + typeof(TDocument).ToString());
+                Console.WriteLine("Unexpected exception occurred while attempting to create repository for TeqBench.System.Data.NoSql.MongoDB.Repository type " + typeof(TDocument).ToString());
                 Console.WriteLine("Exception details: " + ex.Message);
             }
         }
