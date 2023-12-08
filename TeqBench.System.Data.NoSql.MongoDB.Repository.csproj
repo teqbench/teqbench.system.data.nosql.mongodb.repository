@@ -62,6 +62,6 @@
 	<ItemGroup>
 		<PackageReference Include="MongoDB.Driver" Version="2.22.0" />
 		<PackageReference Include="TeqBench.System.Data.NoSql.Repository" Version="2.0.0" />
-		<PackageReference Include="TeqBench.System.Data.NoSql.MongoDB.Models" Version="2.0.0" />
+		<PackageReference Include="TeqBench.System.Data.NoSql.MongoDB.Models" Version="2.0.1" />
 	</ItemGroup>
 </Project>
