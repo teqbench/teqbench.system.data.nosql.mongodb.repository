@@ -27,8 +27,8 @@ Implementation based on https://medium.com/@marekzyla95/mongo-repository-pattern
 > [!NOTE]
 > Referenced/restored via the project file
 
-- MongoDB.Bson, 2.22.0
-- TeqBench.System.Data.NoSql.MongoDB.Models, 2.0.1
+- MongoDB.Bson, 2.23.1
+- TeqBench.System.Data.NoSql.MongoDB.Models, 3.0.0
 - TeqBench.System.Data.NoSql.Repository, 2.0.0
 
 # Usage
