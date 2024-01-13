@@ -11,7 +11,6 @@ Implementation based on https://medium.com/@marekzyla95/mongo-repository-pattern
 ## Contents
 - [Developer Environment Setup](#Developer+Environment+Setup)
 - [Usage](#Usage)
-- [References](#References)
 - [License](#License)
 
 ## Developer Environment Setup
@@ -25,7 +24,8 @@ Implementation based on https://medium.com/@marekzyla95/mongo-repository-pattern
 - [Coding Standards](https://github.com/teqbench/teqbench.docs/wiki/.NET-Coding-Standards)
 - [Solutions](https://github.com/teqbench/teqbench.docs/wiki/.NET-Solutions)
 - [Projects](https://github.com/teqbench/teqbench.docs/wiki/.NET-Projects)
-- [Building, Packing & Deploying](https://github.com/teqbench/teqbench.docs/wiki/.NET-Build-Process)
+- [Building](https://github.com/teqbench/teqbench.docs/wiki/.NET-Build-Process)
+- [Packing & Deploying NuGet Package](#)
 - [Versioning](https://github.com/teqbench/teqbench.docs/wiki/.NET-Versioning-Standards)
 
 ## Usage
